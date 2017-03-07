@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="quizzie">
+  <h1>What Kind Of Music Are You?</h1>
+    <ul class="quiz-step step1 current">
+        <li class="question">
+            <div class="question-wrap">
+              <img src="img/quest-1.jpg">
+              <h2>What Time Do You Usually Wake Up?</h2>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="1">
+            <div class="answer-wrap">
+                <p class="answer-text">Noon Sounds OK</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">Around 8:00</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="3">
+            <div class="answer-wrap">
+                <p class="answer-text">What Do You Care</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">When The Rooster Crows</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step2">
+        <li class="question">
+            <div class="question-wrap">
+                <img src="img/quest-2.jpg">
+                <h2>What Is Your Favorite Colour</h2>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">Green</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="3">
+            <div class="answer-wrap">
+                <p class="answer-text">I Hate Colours</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">Blue</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="1">
+            <div class="answer-wrap">
+                <p class="answer-text">Black</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step3">
+        <li class="question">
+            <div class="question-wrap">
+                <img src="img/quest-3.jpg">
+                <h2>What Is Your Favourite Pet</h2>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="3">
+            <div class="answer-wrap">
+                <p class="answer-text">Dinausaur</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">Chicken</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="1">
+            <div class="answer-wrap">
+                <p class="answer-text">Cat</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">Dog</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step4">
+        <li class="question">
+            <div class="question-wrap">
+                <img src="img/quest-4.jpg">
+                <h2>Mountain Or Sea?</h2>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">Sea</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="1">
+            <div class="answer-wrap">
+                <p class="answer-text">Mountain</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">Both</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="3">
+            <div class="answer-wrap">
+                <p class="answer-text">Neither</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step5">
+        <li class="question">
+            <div class="question-wrap">
+                <img src="img/quest-5.jpg">
+                <h2>Which band member are you?</h2>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">Vocals</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="3">
+            <div class="answer-wrap">
+                <p class="answer-text">Drummer</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="1">
+            <div class="answer-wrap">
+                <p class="answer-text">Guitarist</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">Banjo Player</p>
+            </div>
+        </li>
+    </ul>
+    <ul id="results">
+        <li class="results-inner">
+            <!-- <p>Your result is:</p> -->
+            <h1></h1>
+            <p class="desc"></p>
+        </li>
+    </ul>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
